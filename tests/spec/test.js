@@ -31,6 +31,7 @@ describe('constructors', function () {
     var literals = [
       'Array',
       'Boolean',
+      'Function',
       'Number',
       'Object',
       'RegExp',
@@ -40,6 +41,7 @@ describe('constructors', function () {
     var ctrs = [
       Array,
       Boolean,
+      Function,
       Number,
       Object,
       RegExp,

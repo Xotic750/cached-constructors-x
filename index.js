@@ -1,6 +1,6 @@
 /**
  * @file Constructors cached from literals.
- * @version 1.0.0
+ * @version 1.0.1
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -19,6 +19,7 @@
 module.exports = {
   Array: [].constructor,
   Boolean: true.constructor,
+  Function: function () {}.constructor,
   Number: (0).constructor,
   Object: {}.constructor,
   RegExp: (/(?:)/).constructor,
