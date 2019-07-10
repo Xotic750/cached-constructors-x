@@ -21,19 +21,29 @@
 <a name="module_cached-constructors-x"></a>
 
 ## cached-constructors-x
+
 Constructors cached from literals.
 
-**Version**: 1.0.2  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_cached-constructors-x--module.exports"></a>
 
 ### `module.exports` : <code>Object</code> ⏏
+
 Constructors cached from literals.
 
 **Kind**: Exported member  
-**Example**  
+**Example**
+
 ```js
-var constructors = require('cached-constructors-x');
+import * as constructors from 'cached-constructors-x';
+
+console.log(constructors);
+// {
+//   ArrayCtr: [Function: Array],
+//   BooleanCtr: [Function: Boolean],
+//   FunctionCtr: [Function: Function],
+//   NumberCtr: [Function: Number],
+//   ObjectCtr: [Function: Object],
+//   RegExpCtr: [Function: RegExp],
+//   StringCtr: [Function: String],
+// }
 ```
