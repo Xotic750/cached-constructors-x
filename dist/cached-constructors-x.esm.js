@@ -3,48 +3,50 @@
  *
  * @class Array
  */
-export const ArrayCtr = [].constructor;
-
+export var ArrayCtr = [].constructor;
 /**
  * Cached Array constructor.
  *
  * @class Boolean
  */
-export const BooleanCtr = true.constructor;
 
+export var BooleanCtr = true.constructor;
 /**
  * Cached Array constructor.
  *
  * @class Function
  */
-export const FunctionCtr = function noop() {
+
+export var FunctionCtr = function noop() {
   return undefined;
 }.constructor;
-
 /**
  * Cached Array constructor.
  *
  * @class Number
  */
-export const NumberCtr = (0).constructor;
 
+export var NumberCtr = 0 .constructor;
 /**
  * Cached Array constructor.
  *
  * @class Object
  */
-export const ObjectCtr = {}.constructor;
 
+export var ObjectCtr = {}.constructor;
 /**
  * Cached Array constructor.
  *
  * @class RegExp
  */
-export const RegExpCtr = /none/.constructor;
 
+export var RegExpCtr = /none/.constructor;
 /**
  * Cached Array constructor.
  *
  * @class String
  */
-export const StringCtr = ''.constructor;
+
+export var StringCtr = ''.constructor;
+
+//# sourceMappingURL=cached-constructors-x.esm.js.map

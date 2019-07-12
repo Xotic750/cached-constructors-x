@@ -1,13 +1,14 @@
 /*!
 {
+  "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-10T17:38:41.426Z",
+  "date": "2019-07-12T13:15:05.882Z",
   "describe": "",
   "description": "Constructors cached from literals.",
   "file": "cached-constructors-x.js",
-  "hash": "24724a2709d253a50a04",
+  "hash": "6d282f9108b134ba6b0b",
   "license": "MIT",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -124,16 +125,17 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.StringCtr = exports.RegExpCtr = exports.ObjectCtr = exports.NumberCtr = exports.FunctionCtr = exports.BooleanCtr = exports.ArrayCtr = void 0;
-
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArrayCtr", function() { return ArrayCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BooleanCtr", function() { return BooleanCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FunctionCtr", function() { return FunctionCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberCtr", function() { return NumberCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ObjectCtr", function() { return ObjectCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegExpCtr", function() { return RegExpCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StringCtr", function() { return StringCtr; });
 /**
  * Cached Array constructor.
  *
@@ -146,28 +148,22 @@ var ArrayCtr = [].constructor;
  * @class Boolean
  */
 
-exports.ArrayCtr = ArrayCtr;
 var BooleanCtr = true.constructor;
-exports.BooleanCtr = BooleanCtr;
-
-var noop = function noop() {
-  return undefined;
-};
 /**
  * Cached Array constructor.
  *
  * @class Function
  */
 
-
-var FunctionCtr = noop.constructor;
+var FunctionCtr = function noop() {
+  return undefined;
+}.constructor;
 /**
  * Cached Array constructor.
  *
  * @class Number
  */
 
-exports.FunctionCtr = FunctionCtr;
 var NumberCtr = 0 .constructor;
 /**
  * Cached Array constructor.
@@ -175,7 +171,6 @@ var NumberCtr = 0 .constructor;
  * @class Object
  */
 
-exports.NumberCtr = NumberCtr;
 var ObjectCtr = {}.constructor;
 /**
  * Cached Array constructor.
@@ -183,7 +178,6 @@ var ObjectCtr = {}.constructor;
  * @class RegExp
  */
 
-exports.ObjectCtr = ObjectCtr;
 var RegExpCtr = /none/.constructor;
 /**
  * Cached Array constructor.
@@ -191,9 +185,9 @@ var RegExpCtr = /none/.constructor;
  * @class String
  */
 
-exports.RegExpCtr = RegExpCtr;
 var StringCtr = ''.constructor;
-exports.StringCtr = StringCtr;
+
+
 
 /***/ })
 /******/ ]);
