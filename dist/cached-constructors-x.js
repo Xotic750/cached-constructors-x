@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-17T18:07:39.195Z",
+  "date": "2019-07-17T23:10:20.078Z",
   "describe": "",
   "description": "Constructors cached from literals.",
   "file": "cached-constructors-x.js",
   "hash": "6d282f9108b134ba6b0b",
   "license": "MIT",
-  "version": "2.0.9"
+  "version": "2.0.10"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
