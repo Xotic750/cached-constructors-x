@@ -1,6 +1,6 @@
 {
   "name": "cached-constructors-x",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "description": "Constructors cached from literals.",
   "homepage": "https://github.com/Xotic750/cached-constructors-x",
   "author": {
@@ -21,6 +21,7 @@
   ],
   "module": "dist/cached-constructors-x.esm.js",
   "main": "dist/cached-constructors-x.js",
+  "jsdelivr": "dist/cached-constructors-x.min.js",
   "scripts": {
     "build:esm": "mkdirp dist && babel -s true --env-name esm src/cached-constructors-x.js -o dist/cached-constructors-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
