@@ -1,23 +1,31 @@
 <a href="https://travis-ci.org/Xotic750/cached-constructors-x"
-   title="Travis status">
+  title="Travis status">
 <img
-   src="https://travis-ci.org/Xotic750/cached-constructors-x.svg?branch=master"
-   alt="Travis status" height="18"/>
+  src="https://travis-ci.org/Xotic750/cached-constructors-x.svg?branch=master"
+  alt="Travis status" height="18">
 </a>
 <a href="https://david-dm.org/Xotic750/cached-constructors-x"
-   title="Dependency status">
-<img src="https://david-dm.org/Xotic750/cached-constructors-x.svg"
-   alt="Dependency status" height="18"/>
+  title="Dependency status">
+<img src="https://david-dm.org/Xotic750/cached-constructors-x/status.svg"
+  alt="Dependency status" height="18"/>
 </a>
-<a href="https://david-dm.org/Xotic750/cached-constructors-x#info=devDependencies"
-   title="devDependency status">
+<a
+  href="https://david-dm.org/Xotic750/cached-constructors-x?type=dev"
+  title="devDependency status">
 <img src="https://david-dm.org/Xotic750/cached-constructors-x/dev-status.svg"
-   alt="devDependency status" height="18"/>
+  alt="devDependency status" height="18"/>
 </a>
-<a href="https://badge.fury.io/js/cached-constructors-x" title="npm version">
+<a href="https://badge.fury.io/js/cached-constructors-x"
+  title="npm version">
 <img src="https://badge.fury.io/js/cached-constructors-x.svg"
-   alt="npm version" height="18"/>
+  alt="npm version" height="18">
 </a>
+<a href="https://www.jsdelivr.com/package/npm/cached-constructors-x"
+  title="jsDelivr hits">
+<img src="https://data.jsdelivr.com/v1/package/npm/cached-constructors-x/badge?style=rounded"
+  alt="jsDelivr hits" height="18">
+</a>
+
 <a name="module_cached-constructors-x"></a>
 
 ## cached-constructors-x
