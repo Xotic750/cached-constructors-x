@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-08-13T12:36:35.127Z",
+  "date": "2019-08-14T13:29:16.481Z",
   "describe": "",
   "description": "Constructors cached from literals.",
   "file": "cached-constructors-x.js",
-  "hash": "683bcd059da5b6953ce1",
+  "hash": "93d451540fea6f751712",
   "license": "MIT",
-  "version": "2.0.25"
+  "version": "2.1.0"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -158,19 +158,50 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/noop-x/dist/noop-x.esm.js
+/**
+ * This method returns undefined.
+ *
+ * @returns {undefined} Always undefined.
+ */
+var noop = function noop() {};
+/* eslint-disable-line lodash/prefer-noop */
+
+
+/* harmony default export */ var noop_x_esm = (noop);
+
+
+// CONCATENATED MODULE: ./dist/cached-constructors-x.esm.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArrayCtr", function() { return ArrayCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArrayPrototype", function() { return ArrayPrototype; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BooleanCtr", function() { return BooleanCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BooleanPrototype", function() { return BooleanPrototype; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FunctionCtr", function() { return FunctionCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FunctionPrototype", function() { return FunctionPrototype; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberCtr", function() { return NumberCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberPrototype", function() { return NumberPrototype; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ObjectCtr", function() { return ObjectCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ObjectPrototype", function() { return ObjectPrototype; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegExpCtr", function() { return RegExpCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegExpPrototype", function() { return RegExpPrototype; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StringCtr", function() { return StringCtr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StringPrototype", function() { return StringPrototype; });
+
 /**
  * Cached Array constructor.
  *
  * @class Array
  */
+
 var ArrayCtr = [].constructor;
+/**
+ * Cached Array prototype.
+ *
+ * @type {!object}
+ */
+
+var ArrayPrototype = ArrayCtr.prototype;
 /**
  * Cached Array constructor.
  *
@@ -179,42 +210,82 @@ var ArrayCtr = [].constructor;
 
 var BooleanCtr = true.constructor;
 /**
- * Cached Array constructor.
+ * Cached Boolean prototype.
+ *
+ * @type {!object}
+ */
+
+var BooleanPrototype = BooleanCtr.prototype;
+/**
+ * Cached Function constructor.
  *
  * @class Function
  */
 
-var FunctionCtr = function noop() {
-  return undefined;
-}.constructor;
+var FunctionCtr = noop_x_esm.constructor;
 /**
- * Cached Array constructor.
+ * Cached Function prototype.
+ *
+ * @type {!object}
+ */
+
+var FunctionPrototype = FunctionCtr.prototype;
+/**
+ * Cached Number constructor.
  *
  * @class Number
  */
 
 var NumberCtr = 0 .constructor;
 /**
- * Cached Array constructor.
+ * Cached Number prototype.
+ *
+ * @type {!object}
+ */
+
+var NumberPrototype = NumberCtr.prototype;
+/**
+ * Cached Object constructor.
  *
  * @class Object
  */
 
 var ObjectCtr = {}.constructor;
 /**
- * Cached Array constructor.
+ * Cached Object prototype.
+ *
+ * @type {!object}
+ */
+
+var ObjectPrototype = ObjectCtr.prototype;
+/**
+ * Cached RegExp constructor.
  *
  * @class RegExp
  */
 
 var RegExpCtr = /none/.constructor;
 /**
- * Cached Array constructor.
+ * Cached RegExp prototype.
+ *
+ * @type {!object}
+ */
+
+var RegExpPrototype = RegExpCtr.prototype;
+/**
+ * Cached String constructor.
  *
  * @class String
  */
 
 var StringCtr = ''.constructor;
+/**
+ * Cached String prototype.
+ *
+ * @type {!object}
+ */
+
+var StringPrototype = StringCtr.prototype;
 
 
 
